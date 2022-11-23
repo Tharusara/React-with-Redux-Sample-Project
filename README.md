@@ -2,6 +2,10 @@
 
 The scope: the application is to display a listing of all the posts consuming from an api and whenever we choose a post more information should be displayed such as the name and the username as well as the selected post’s body. I used  Samantic-UI-React as a 3rd party library for styling in this project. the application is developed with typescript and redux is been used for global state management in this project.
 
+api's used to consume data
+Posts: https://jsonplaceholder.typicode.com/posts 
+Users: https://jsonplaceholder.typicode.com/users 
+
 # Getting Started with Running the Project
 
 first install the dependecies with `npm install` \
