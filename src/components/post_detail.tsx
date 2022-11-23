@@ -2,7 +2,7 @@ import React from 'react';
 
 import PostContainer from '../containers/post_container';
 
-const PostDetail = (props) =>{
+const PostDetail = (props) => {
     return(
         <>
             <PostContainer {...props}/>

@@ -20,9 +20,11 @@ const PostList = (props: Props) =>{
                             <Step active>
                                 <Step.Content className="post_item">
                                     <Step.Title>{item.title}</Step.Title>                                    
-                                    <Step.Description><b>Email: </b>{props.users 
+                                    <Step.Description><b>Email: </b>
+                                    {props.users 
                                     ? item.email = props.users.find(u => u.id === item.userId).email 
-                                    : null}</Step.Description>
+                                    : null}
+                                    </Step.Description>
                                 </Step.Content>
                             </Step>
                         </StepGroup> <br />

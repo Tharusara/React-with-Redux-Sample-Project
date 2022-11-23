@@ -48,8 +48,7 @@ class PostContainer extends Component<Props> {
                     </Step.Group>
                 </div>
                 <div className="post_album_list">
-                    {user ?
-                        
+                    {user ?                        
                         <Grid>
                             <Grid.Column width='8'>
                                 <Step.Group vertical>
@@ -87,8 +86,7 @@ class PostContainer extends Component<Props> {
                                 </Step.Group>
                             </Grid.Column>
                         </Grid>
-                    : null
-                    }
+                    : null }
                 </div>
             </div>
         :null
